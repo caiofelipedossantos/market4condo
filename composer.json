@@ -1,0 +1,14 @@
+{
+    "name": "caio/market4condo",
+    "description": "Landpage",
+    "type": "project",
+    "require": {
+        "phpmailer/phpmailer": "^6.4"
+    },
+    "authors": [
+        {
+            "name": "Caio Felipe",
+            "email": "caiofelipe.up@gmail.com"
+        }
+    ]
+}
