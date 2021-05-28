@@ -1,5 +1,6 @@
 <?php
 header('Content-Type: application/json');
+
 // Importar as classes 
 use PHPMailer\PHPMailer\PHPMailer;
 use PHPMailer\PHPMailer\Exception;
@@ -44,8 +45,7 @@ try {
     // Define o remetente
     $mail->setFrom($email, $name);
     // Define o destinatário
-    $mail->addAddress('comercial@market4condo.com.br', $name);
-    //$mail->addAddress('caiofelipe.up@gmail.com', $_POST['name']);
+    $mail->addAddress('noreply@domain.com', $name);
     // Conteúdo da mensagem
     $mail->isHTML(true);  // Seta o formato do e-mail para aceitar conteúdo HTML
     $mail->Subject = utf8_decode('Quero receber mais informações');
